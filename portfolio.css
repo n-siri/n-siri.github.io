@@ -1,0 +1,78 @@
+.body{
+    display: flex;
+    background-color: #344966;
+    justify-content: space-between;
+}
+
+.bodyAbout{
+    display: flex;
+    background-color: #344966;
+
+}
+
+.navContainer{
+
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F19953;
+    border-radius: 26px;
+    justify-content: center;
+    
+}
+
+
+
+.navItemsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the child elements */
+    align-items: center; /* Vertically center the child elements */
+    margin-bottom: 25px;
+    margin-top: 25px;
+            
+}
+
+.navItems{
+
+    flex-direction: column;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 20px;
+    margin: 20px;
+    color: #344966;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+
+.welcome{
+    font-size: xx-large;
+    align-self: center;
+    color: #C2DFE3;
+    margin-top: -17%;    
+}
+
+
+.profilePicture{
+    width: 350px;
+    height: 350px;
+}
+
+.aboutMain{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.textBody{
+    margin-left: 30px;
+}
+
+.header{
+    color: #C2DFE3;
+
+}
