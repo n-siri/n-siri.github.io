@@ -116,3 +116,40 @@
     height: 150px;
     border-radius: 100%;
 }
+
+.projectsMain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 26px;
+    background-color: #F19953;
+    border: 4px;
+    border-style: solid;
+    border-color: #C2DFE3;
+    margin: 10px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projectContent{
+    display: flex;
+    flex-direction: row;
+    color: #344966;
+}
